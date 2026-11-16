@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-16",
+  "apps": [
+    {
+      "id": "steins_tracker",
+      "name": "Steins;Tracker",
+      "tagline": "Rastreie o tempo de jogo dos seus games",
+      "description": "Tracker de jogos para Windows: detecta o que você está jogando, soma horas, sessões e sincroniza as estatísticas com o seu perfil RuneHub.",
+      "icon": "https://runestorage.runeprojects.com.br/uploads/logos/1776821489034-663165214.png",
+      "banner": "https://runestorage.up.railway.app/uploads/prints/1773534843023-376806952.png",
+      "accent": "#6366f1",
+      "status": "available",
+      "requiresLogin": false,
+      "hubProductId": "steins_tracker",
+      "source": {
+        "type": "github-release",
+        "repo": "guilhermealceu/steins-tracker",
+        "assetPattern": "^SteinsTracker-Setup-\\d+\\.\\d+\\.\\d+\\.exe$"
+      },
+      "windows": {
+        "registryDisplayName": "SteinsTracker",
+        "exeName": "SteinsTracker.exe",
+        "installDirs": [
+          "%ProgramFiles%\\SteinsTracker",
+          "%LOCALAPPDATA%\\Programs\\SteinsTracker"
+        ],
+        "installerArgs": []
+      }
+    },
+    {
+      "id": "isekai_tracker",
+      "name": "Isekai;Tracker",
+      "tagline": "Seu tracker de animes, agora no desktop",
+      "description": "Acompanhe animes, temporadas e filmes com perfil social, feed e conquistas. A versão desktop será distribuída exclusivamente pelo RuneHub.",
+      "icon": "https://runestorage.up.railway.app/uploads/logos/1772200248167-904743118.png",
+      "banner": "https://runestorage.up.railway.app/uploads/prints/1773533794821-664659576.png",
+      "accent": "#10b981",
+      "status": "coming_soon",
+      "requiresLogin": true,
+      "hubProductId": "isekai_tracker"
+    }
+  ]
+}
