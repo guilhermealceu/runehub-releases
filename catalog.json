@@ -32,13 +32,25 @@
       "id": "isekai_tracker",
       "name": "Isekai;Tracker",
       "tagline": "Seu tracker de animes, agora no desktop",
-      "description": "Acompanhe animes, temporadas e filmes com perfil social, feed e conquistas. A versão desktop será distribuída exclusivamente pelo RuneHub.",
+      "description": "Acompanhe animes, temporadas e filmes com perfil social, feed e conquistas. Exclusivo do RuneHub: entre com sua conta para baixar.",
       "icon": "https://runestorage.up.railway.app/uploads/logos/1772200248167-904743118.png",
       "banner": "https://runestorage.up.railway.app/uploads/prints/1773533794821-664659576.png",
       "accent": "#10b981",
-      "status": "coming_soon",
+      "status": "available",
       "requiresLogin": true,
-      "hubProductId": "isekai_tracker"
+      "hubProductId": "isekai_tracker",
+      "source": {
+        "type": "runehub-private"
+      },
+      "windows": {
+        "registryDisplayName": "IsekaiTracker",
+        "exeName": "IsekaiTracker.exe",
+        "installDirs": [
+          "%LOCALAPPDATA%\\Programs\\IsekaiTracker",
+          "%ProgramFiles%\\IsekaiTracker"
+        ],
+        "installerArgs": []
+      }
     }
   ]
 }
